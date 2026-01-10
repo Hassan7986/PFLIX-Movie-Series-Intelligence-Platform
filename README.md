@@ -117,7 +117,7 @@ Copy-Item .env.example .env
 
 **Environment Variables (backend/.env):**
 ```env
-DATABASE_URL="postgresql://user:password@localhost:5432/pflix"  # or your own connection string
+DATABASE_URL=# your own connection string
 JWT_SECRET="your-super-secret-jwt-key-change-in-production"
 JWT_EXPIRES_IN="7d"
 TMDB_API_KEY="your-tmdb-api-key-optional"
